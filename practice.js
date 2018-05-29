@@ -40,8 +40,12 @@ var groceries = ['apples', 'milk','eggs','bread'];
 //doubleCheck should return the array.
 
 function doubleCheck(groceries){
-  groceries.forEach(doubleCheck)("chocolate")
-    return Array;
+  if (groceries=="chocolate"){
+    groceries.push("chocolate");
+  } else{
+    return groceries();
+  }
+    
   }
 
 
